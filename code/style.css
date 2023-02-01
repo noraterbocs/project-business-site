@@ -1,11 +1,12 @@
-/* the + sign is used to select the sibling that comes immediately next to the element you selected.
-in this case it is the div with the answer class next to the div with the active class.
-this can be used for the FAQ-accordion. read more here: https://www.w3schools.com/css/css_combinators.asp */
+
 :root{
   margin:0;
   padding:0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #aab7e0;
+}
+::placeholder {
+  color: #0d1530;
 }
 
 body {
@@ -97,7 +98,6 @@ h1 {
   border-radius: 10px;
   width: 250px;
   background-color: #aab7e0;
-  color: #0d1530;
 }
 p{
   padding:0;
@@ -130,7 +130,7 @@ p{
 h2 {
   text-align: center;
   color: #aab7e0;
-  font-size: 20px;
+  font-size: 15px;
   padding: 10px;
   opacity: 63%;
 }
@@ -190,38 +190,22 @@ footer{
   .navbar-element{
     font-size: 30px;
   }
-  header {
-      height: 600px;
-    }
-  .container {
-    grid-template-columns: 1fr 1fr;
-    top: 600px;
-  }
   h1 {
     font-size: 75px;
   }
   h2{
-    font-size: 35px;
+    font-size: 20px;
   }
+  .answer,
   .sections,
   .form-fields{
-    padding: 20px;
     width: 400px;
-    font-size: 25px;
   }
   button{
     font-size: 25px;
-  }
-  .answer{
-    width:400px;
-    font-size: 15px;
   }
   .robot,
   .radio-buttons{
     font-size: 25px;
   }
-  footer {
-    top: 600px;
-  }
-
 }
