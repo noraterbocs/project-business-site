@@ -12,38 +12,53 @@
 <body>
 
   <header>
+    <div class="navbar">
+      <a class="navbar-element">Home</a>
+      <a class="navbar-element">News</a>
+      <a class="navbar-element">Contact</a>
+      <a class="navbar-element">About</a>
+    </div>
+    <video autoplay muted loop id="myVideo" class="myVideo">
+      <source src="Time Lapse Video Of Aurora Borealis.mp4" type="video/mp4">
+    </video>
     <h1>Northern Tours</h1>
   </header>
-  
-  <video autoplay muted loop id="myVideo" class="myVideo">
-    <source src="Time Lapse Video Of Aurora Borealis.mp4" type="video/mp4">
-  </video>
-  
-  <div class="container">
+
+
+
+  <main class="container">
 
     <section class="accordion">
       <h2>About Us</h2>
-      <div class="sections" id="section1"><p>Abisko</p><i class="fa-solid fa-plus"></i></div>
+      <div class="sections" id="section1">
+        <p>Abisko</p><i class="fa-solid fa-plus"></i>
+      </div>
       <div class="answer">
-        <p>Abisko National Park, in Swedish Lapland, offers some of the best conditions in the world 
-          for northern lights watching. The unique climate of the area keep the skies almost clear, 
+        <p>Abisko National Park, in Swedish Lapland, offers some of the best conditions in the world
+          for northern lights watching. The unique climate of the area keep the skies almost clear,
           and the light pollution is next to nothing. And here, you also find the Aurora Sky Station.</p>
       </div>
-      <div class="sections" id="section2"><p>Kiruna</p> <i class="fa-solid fa-plus"></i></div>
+      <div class="sections" id="section2">
+        <p>Kiruna</p> <i class="fa-solid fa-plus"></i>
+      </div>
       <div class="answer">
-        <p>Kiruna is the country’s northernmost city, with a population of around 17,000 people. 
-          It is the perfect base for exploring Sweden’s great white north. From Stockholm, you can either 
-          take a scenic 12-hour train ride or a 90-minute flight.Whether you want to see the Aurora Borealis 
-          by car, snowshoe, snowmobile, dogsled or skis, you’ll find a tour company in Kiruna that has the perfect 
+        <p>Kiruna is the country’s northernmost city, with a population of around 17,000 people.
+          It is the perfect base for exploring Sweden’s great white north. From Stockholm, you can either
+          take a scenic 12-hour train ride or a 90-minute flight.Whether you want to see the Aurora Borealis
+          by car, snowshoe, snowmobile, dogsled or skis, you’ll find a tour company in Kiruna that has the perfect
           package for you.</p>
       </div>
-      <div class="sections" id="section3"><p>Cost</p> <i class="fa-solid fa-plus"></i></div>
+      <div class="sections" id="section3">
+        <p>Cost</p> <i class="fa-solid fa-plus"></i>
+      </div>
       <div class="answer">
-        <p>We try to make all of our trips as affordable as they can be for every budget. Get in 
+        <p>We try to make all of our trips as affordable as they can be for every budget. Get in
           touch with the form on this website and we can discuss the details.
         </p>
       </div>
-      <div class="sections" id="section4"><p>How to find us</p> <i class="fa-solid fa-plus"></i></div>
+      <div class="sections" id="section4">
+        <p>How to find us</p> <i class="fa-solid fa-plus"></i>
+      </div>
       <div class="answer">
         <p>Abisko National Park, Abisko, Sweden </p>
       </div>
@@ -54,7 +69,8 @@
       <h2>Sign up for more information</h2>
       <input class="form-fields" id="name" name="name" type="text" placeholder="Full Name" required></input>
       <input class="form-fields" id="email" name="email" type="email" placeholder="Email" required></input>
-      <input class="form-fields" id="phoneNumber" name="phoneNumber" type="tel" placeholder="Phone Number" required></input>
+      <input class="form-fields" id="phoneNumber" name="phoneNumber" type="tel" placeholder="Phone Number"
+        required></input>
       <div class="radio-buttons">
         <input type="radio" name="tour" id="abisko" value="abisko" checked></input>
         <label for="abisko">Abisko Tour</label>
@@ -67,8 +83,10 @@
       </div>
       <button type="submit" id="button">Submit</button>
     </form>
-  </div>
-
+  </main>
+  <footer>
+    <p>Northern Lights AB</p>
+  </footer>
   <script src="script.js"></script>
 
 </body>
